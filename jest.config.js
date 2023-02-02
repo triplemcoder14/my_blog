@@ -5,6 +5,7 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['<rootDir>/components/**/*.vue', '<rootDir>/pages/*.vue'],
   moduleNameMapper: {
+    
     '^.+\\.(jpg|jpeg)$': 'jest-static-stubs/jpg',
     '^.+\\.(png)$': 'jest-static-stubs/png',
     '^.+\\.(svg)$': 'identity-obj-proxy',
